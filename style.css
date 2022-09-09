@@ -1,0 +1,88 @@
+html{
+    background-color: black;
+}
+::placeholder{
+    font-size: 1.3rem;
+}
+input[type="text"]{
+    /* input text ke text ko chane krne ke lya */
+    font-size: 1.5rem;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color:green;
+  position: absolute;
+  margin-left: 55rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.mainbody{
+    width:425px;
+    height:425px;
+    padding:20px;
+    margin:100px auto;
+    background-color: lightgray;
+}
+/* .myProgress{
+    position: relative;
+} */
+.progressbar{
+    position:absolute;
+    background-color:green;
+    height:0.3%;
+    width:0%;
+    top:0;
+    left:0;
+    margin-top: 15rem;
+    margin-left: 33rem;
+    padding:0.2rem;
+    transform: 0.3s;
+    width:0%
+    
+}
+.count_Password{
+    position:absolute;
+    left: 58rem;
+    font-size:1.5rem;
+    margin-top:-0.5rem;
+    color: green;
+    font-weight: bolder;
+
+}
+.generate{
+    background-color:greenyellow;
+    color:white;
+    display:flex;
+    position: absolute;
+    height:3rem;
+    width:29%;
+    cursor: pointer;
+    margin-top:21rem;
+    margin-left: 0.2rem;
+    align-items: center;
+    cursor: pointer;
+    color:black;
+
+}
+
+.arr{
+    width:0;
+    height:0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:6px solid black;
+    margin-left: 17rem;
+    margin-top: 0.5rem;
+
+    
+
+}
+
+.arr-rotate{
+    transform: rotate(100deg);
+}
+
